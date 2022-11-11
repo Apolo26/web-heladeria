@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imagenes/favicon2.png">
+    <title>Planeta Helado</title>
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <header>
+        <a href="#" class="logo">
+            <img src="imagenes/favicon2.png" alt="">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#irFotos">GALERIA</a></li>
+                <li><a href="#irUbicacion">UBICACION</a></li>
+                <li><a href="contacto/contacto.html" target="_blank">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Seccion Logo Flotante-->
+
+    <section class="inicio">
+        <div class="bgColor"></div>
+        <div class="bgColor"></div>
+        <div class="contenido">
+            <h1>Heladeria</h1>
+            <h1>Planeta Helado</h1>
+            <p>La meta de nuestros helados es hacer que el latir de sus corazones se sincronice con el latido del
+                universo, y hacer que nuestro nombre coincida con el de la naturaleza.</p>
+            <a href="#tituloCategoria">Vea nuestros sabores</a>
+        </div>
+    </section>
+
+    <section class="imgBx">
+        <img src="imagenes/logo.png" alt="">
+    </section>
+
+    <br><br><br>
+
+    <!--Seccion Sabores de Helados-->
+
+    <div class="tituloCategoria"></a>
+        <h2><a name="categoriaTitular"></a>Algunos de nuestros sabores</h2>
+    </div>
+
+    <section class="categoria">
+        <div class="bgColor"></div>
+        <div class="bgColor"></div>
+        <div class="tienda">
+            <div class="card">
+                <img src="imagenes/heladofrutilla.png" class="imgFrutilla" alt="">
+                <div class="contenidoCard">
+                    <span>Frutilla Lactea</span>
+                    <p>Este sabor viajó por multiples galaxias, hasta que aterrizo en la nuestra</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/heladolimon.png" class="imgLimon" alt="">
+                <div class="contenidoCard">
+                    <span>Limon Espacial</span>
+                    <p>Este sabor es un explorador de planetas, ahora esta en el nuestro.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/heladocrema.png" class="imgCrema" alt="">
+                <div class="contenidoCard">
+                    <span>Crema del Espacio</span>
+                    <p>Este sabor deambuló mucho tiempo por el espacio y tomó ese tono azul oscuro</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <!--Seccion Galeria-->
+
+    <section class="fotos">
+        <h2><a name="irFotos"></a> USTEDES </h2>
+        <div class="container">
+            <div class="mySlides">
+                <img src="imagenes/redes/Sin título-22.png" alt="imagen-1">
+            </div>
+            <div class="mySlides">
+                <img src="imagenes/redes/Sin título-23.png" alt="imagen-2">
+            </div>
+            <div class="mySlides">
+                <img src="imagenes/redes/Sin título-24.png" alt="imagen-3">
+            </div>
+            <div class="mySlides">
+                <img src="imagenes/redes/Sin título-25.png" alt="imagen-4">
+            </div>
+            <div class="mySlides">
+                <img src="imagenes/redes/Sin título-26.png" alt="imagen-5">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="elements">
+                <span class="quadrate" onclick="currentSlide(1)"></span>
+                <span class="quadrate" onclick="currentSlide(2)"></span>
+                <span class="quadrate" onclick="currentSlide(3)"></span>
+                <span class="quadrate" onclick="currentSlide(4)"></span>
+                <span class="quadrate" onclick="currentSlide(5)"></span>
+            </div>
+    </section>
+
+    <br><br>
+    <br>
+
+    <!--Seccion Ubicacion-->
+
+
+    <section class="tituloUbicacion">
+        <h2><a name="irUbicacion"></a>Nuestra Ubicacion</h2>
+        <div class="ubicacion">
+        </div>
+    </section>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53357.20888394857!2d-66.34245302299806!3d-33.297226459848304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43954196ca6cd%3A0x7fc2e3b4d49ecc83!2sSan%20Luis%2C%20San%20Luis%20Province!5e0!3m2!1sen!2sar!4v1667673560009!5m2!1sen!2sar"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <br><br>
+
+    <!--Footer-->
+
+    <footer>
+        <div class="clientes">
+            <p>Nuestros clientes son nuestras estrellas favoritas</p>
+        </div>
+
+        <div class="sobreNosotros">
+            <a href="#">Quienes Somos</a>
+            <a href="#">Nuestros Productos</a>
+            <a href="#">Politicas de Privacidad</a>
+            <p>Sobre Nosotros</p>
+        </div>
+
+        <div class="redesSociales">
+            <p>Encontranos en: </p>
+            <ul class="social">
+                <li class="fb">
+                    <a href="https://www.facebook.com/" target="_blank"></a>
+                </li>
+                <li class="twitter">
+                    <a href="https://twitter.com" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--JS-->
+
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo", window.scrollY > 0);
+        })
+    </script>
+
+</body>
+
+</html>
